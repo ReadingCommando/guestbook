@@ -1,4 +1,3 @@
-var http = require('http');
 var path = require('path');
 var express = require('express');
 var logger = require('morgan');
@@ -44,6 +43,6 @@ app.use(function(request, response) {
 	response.status(404).render('404');
 });
 
-http.createServer(app).listen(3000, function() {
+app.listen(3000, function() {
 	console.log('Guestbook app started on port 3000.');
 });

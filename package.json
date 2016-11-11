@@ -9,5 +9,9 @@
     "ejs": "^2.5.2",
     "express": "^4.14.0",
     "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1"
   }
 }
